@@ -1,9 +1,12 @@
-package com.example.a0leander.buildmyfirstapp;
+package com.example.a0leander.buildmyfirstapp.View;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.a0leander.buildmyfirstapp.R;
+import com.example.a0leander.buildmyfirstapp.View.MainActivity;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 

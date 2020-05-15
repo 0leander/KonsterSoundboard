@@ -1,12 +1,15 @@
-package com.example.a0leander.buildmyfirstapp;
+package com.example.a0leander.buildmyfirstapp.View;
 
-import android.content.Context;
 import android.content.Intent;
-import android.media.MediaPlayer;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import com.example.a0leander.buildmyfirstapp.Control.MediaPlayerSingleton;
+import com.example.a0leander.buildmyfirstapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,24 +18,24 @@ public class MainActivity extends AppCompatActivity {
     /*
     media player testing
     */
-    //create media player
-    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*
-        * Create media player
-        */
-        mediaPlayer = MediaPlayer.create(this, R.raw.testfile);
     }
 
 
     /** play testfile in mediaPlayer */
     public void playTestFile(View view){
-        mediaPlayer.start();
+
+        try {
+            MediaPlayerSingleton.getSingletonMedia().start();
+        }
+        catch (Exception e){
+            Toast.makeText(this, "couldnt play audio file", Toast.LENGTH_SHORT).show();
+        }
     }
 
     /** Called when the user taps the Send button */
