@@ -1,9 +1,9 @@
-package com.example.a0leander.buildmyfirstapp.Control;
+package com.example.a0leander.AndroidDevelopment.Control;
 
 import android.content.Context;
 import android.media.MediaPlayer;
 
-import com.example.a0leander.buildmyfirstapp.R;
+import com.example.a0leander.AndroidDevelopment.R;
 
 public class MediaPlayerSingleton implements MediaPlayerInterface {
 

@@ -1,4 +1,4 @@
-package com.example.a0leander.buildmyfirstapp;
+package com.example.a0leander.AndroidDevelopment;
 
 import org.junit.Test;
 

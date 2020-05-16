@@ -1,4 +1,4 @@
-package com.example.a0leander.buildmyfirstapp.Model;
+package com.example.a0leander.AndroidDevelopment.Model;
 
 import android.net.Uri;
 

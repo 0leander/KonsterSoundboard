@@ -1,7 +1,4 @@
-package com.example.a0leander.buildmyfirstapp.Control;
-
-import android.content.Context;
-import android.net.Uri;
+package com.example.a0leander.AndroidDevelopment.Control;
 
 public interface MediaPlayerInterface {
 

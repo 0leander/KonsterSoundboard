@@ -1,15 +1,14 @@
-package com.example.a0leander.buildmyfirstapp.View;
+package com.example.a0leander.AndroidDevelopment.View;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.a0leander.buildmyfirstapp.Control.MediaPlayerSingleton;
-import com.example.a0leander.buildmyfirstapp.R;
+import com.example.a0leander.AndroidDevelopment.Control.MediaPlayerSingleton;
+import com.example.a0leander.AndroidDevelopment.R;
 
 public class MainActivity extends AppCompatActivity {
 

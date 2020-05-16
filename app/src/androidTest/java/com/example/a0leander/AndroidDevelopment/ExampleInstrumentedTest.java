@@ -1,4 +1,4 @@
-package com.example.a0leander.buildmyfirstapp;
+package com.example.a0leander.AndroidDevelopment;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
